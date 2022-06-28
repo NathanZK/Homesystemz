@@ -27,5 +27,4 @@ zipp==3.8.0
 
 
 gpiozero==1.6.2
-picamera==1.13
 RPi.GPIO==0.7.0
