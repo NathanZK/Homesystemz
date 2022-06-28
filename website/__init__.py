@@ -10,7 +10,8 @@ DB_NAME = "smarthome.db"
 def create_app():
     app = Flask(__name__)
     #app.config['SECRET_KEY'] = 'KEY'
-    app.config['SQLALCHEMY_DATABASE_URI'] =  'postgresql://hwterymoqfaimq:010d2f31a957e274c2665fa5270b965a297431b2a9c79d9b99bae22fe3aef7e5@ec2-44-206-11-200.compute-1.amazonaws.com:5432/d1qn4kf86j8fic'
+    #app.config['SQLALCHEMY_DATABASE_URI'] =  'postgresql://hwterymoqfaimq:010d2f31a957e274c2665fa5270b965a297431b2a9c79d9b99bae22fe3aef7e5@ec2-44-206-11-200.compute-1.amazonaws.com:5432/d1qn4kf86j8fic'
+    app.config['SQLALCHEMY_DATABASE_URI'] =  'postgres://wimfcmgzsgiogx:3461cbae475659dde38c8b4006ae945c27c81b62ae8b048897c9b372557357f0@ec2-34-200-35-222.compute-1.amazonaws.com:5432/dc229dg09ggml7'
     app.config['SECRET_KEY'] = 'KEY'
     db.init_app(app)
 
