@@ -16,7 +16,7 @@ buttonshim==0.0.2
 Cap1xxx==0.1.3
 certifi==2020.6.20
 chardet==4.0.0
-click==7.1.2
+click==8.1.3
 clint==0.5.1
 colorama==0.4.4
 colorzero==1.1
@@ -28,32 +28,36 @@ docutils==0.16
 drumhat==0.1.0
 envirophat==1.0.0
 ExplorerHAT==0.4.2
-Flask==1.1.2
+Flask==2.1.2
 Flask-Login==0.6.1
 Flask-SQLAlchemy==2.5.1
 fourletterphat==0.1.0
+greenlet==1.1.2
 gpiozero==1.6.2
 gunicorn==20.1.0
 html5lib==1.1
 idna==2.10
+importlib-metadata==4.11.3
 isort==5.6.4
-itsdangerous==1.1.0
+itsdangerous==2.1.2
 jedi==0.18.0
 Jinja2==2.11.3
 
 logilab-common==1.8.1
 lxml==4.6.3
-MarkupSafe==1.1.1
+MarkupSafe==2.1.1
 mccabe==0.6.1
 microdotphat==0.2.1
 mote==0.0.4
 motephat==0.0.3
 mypy==0.812
 mypy-extensions==0.4.3
+mysql-connector-python==8.0.27
 
+numpy==1.22.4
 oauthlib==3.1.0
 olefile==0.46
-opencv-python==4.5.3.56
+opencv-python==4.5.5.64
 pantilthat==0.0.7
 parso==0.8.1
 pexpect==4.8.0
@@ -65,6 +69,7 @@ piglow==1.2.5
 pigpio==1.78
 Pillow==8.1.2
 psutil==5.8.0
+psycopg2==2.9.3
 pycairo==1.16.2
 pycups==2.0.1
 pyftdi==0.54.0
@@ -112,5 +117,7 @@ typing-extensions==3.7.4.3
 unicornhathd==0.0.4
 urllib3==1.26.5
 webencodings==0.5.1
-Werkzeug==1.0.1
+waitress==2.1.2
+Werkzeug==2.1.2
 wrapt==1.12.1
+zipp==3.8.0
